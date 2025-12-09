@@ -1,51 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Driver Drowsiness Detection System</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial;
-            background: #000;
-            color: #fff;
-            text-align: center;
-        }
-        h1 {
-            color: cyan;
-            margin-top: 30px;
-        }
-        .box {
-            width: 60%;
-            margin: auto;
-            margin-top: 40px;
-            padding: 20px;
-            border: 2px solid cyan;
-            border-radius: 15px;
-        }
-        a {
-            color: yellow;
-            text-decoration: none;
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
+<script src="script.js"></script>
 <body>
 
-<h1>Universal Driver Drowsiness Detection System</h1>
+    <!-- HERO SECTION -->
+    <div class="hero">
+        <h1>Universal Driver Drowsiness Detection System</h1>
+        <p>Real-Time Monitoring Using OpenCV, Flask & Haar Cascade</p>
+        <a href="https://github.com/harshitha-urss/driver-drowsiness-detection" class="btn">View Source Code</a>
+    </div>
 
-<div class="box">
-    <p>This project detects drowsiness using OpenCV, Haar Cascade and Flask.</p>
-    <p>It triggers an alarm when eyes remain closed beyond threshold.</p>
+    <!-- PROBLEM STATEMENT -->
+    <section>
+        <h2>Problem Statement</h2>
+        <p>
+            Road accidents due to driver fatigue are a major global concern. Continuous monitoring
+            of driver alertness is essential to prevent loss of life. Manual monitoring is not
+            reliable, hence an automated real-time drowsiness detection system is required.
+        </p>
+    </section>
 
-    <br>
-    <p><b>Technology Stack:</b></p>
-    <p>Python | OpenCV | Flask | Haar Cascade | Pygame</p>
+    <!-- SYSTEM ARCHITECTURE -->
+    <section>
+        <h2>System Architecture</h2>
+        <img src="architecture.png" class="image-box">
+    </section>
 
-    <br>
-    <a href="https://github.com/harshitha-urss/driver-drowsiness-detection" target="_blank">
-        View Project Source Code on GitHub
-    </a>
-</div>
+    <!-- WORKING -->
+    <section>
+        <h2>Working Process</h2>
+        <ul>
+            <li>Webcam captures real-time video</li>
+            <li>Face detected using Haar Cascade</li>
+            <li>Eye detection from face region</li>
+            <li>Fatigue score calculated</li>
+            <li>Alarm triggered if eyes closed beyond threshold</li>
+        </ul>
+    </section>
+
+    <!-- TECHNOLOGIES -->
+    <section>
+        <h2>Technologies Used</h2>
+        <div class="tech">
+            Python | OpenCV | Flask | Haar Cascade | Pygame | HTML | CSS | GitHub
+        </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section>
+        <h2>Results</h2>
+        <p>
+            The system successfully detects eye closure in real time and triggers an alert sound.
+            It works accurately under normal lighting conditions with minimal CPU usage.
+        </p>
+    </section>
+
+    <!-- REPORT & PPT -->
+    <section>
+        <h2>Project Documents</h2>
+        <a class="btn" href="Universal_Driver_Drowsiness_16_Page_Report.docx">Download Report</a>
+        <a class="btn" href="presentation.pptx">Download PPT</a>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Developed by Harshitha | AI & ML Engineering</p>
+    </footer>
 
 </body>
 </html>
