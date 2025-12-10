@@ -29,10 +29,14 @@ h2 {
     color: cyan;
 }
 
-.image-box {
+.architecture-img {
     width: 60%;
-    border: 2px solid cyan;
-    margin-top: 20px;
+    max-width: 650px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 20px cyan;
 }
 
 ul {
