@@ -5,10 +5,10 @@ A real-time AI-based driver drowsiness detection system built using **OpenCV, Fl
 ---
 
 ## 🔴 Live Project Website  
-    https://harshitha-urss.github.io/driver-drowsiness-detection/
+https://harshitha-urss.github.io/driver-drowsiness-detection/
 
 ##  Project Demo Video  
-    https://youtu.be/QTTx1YfluBc
+https://youtu.be/QTTx1YfluBc
 
 ---
 
